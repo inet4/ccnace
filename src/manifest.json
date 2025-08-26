@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "ccnace",
+  "version": "1.0.0",
+  "description": "Stealthy CCNA Solver",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ccnace@inet4.github.com"
+    }
+  },
+  "icons": {
+    "256": "icons/ccna-256.png"
+  },
+  "permissions": [
+    "clipboardRead",
+    "https://itexamanswers.net/*",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.netacad.com/*",
+        "*://www.assessment.netacad.net/*",
+        "*://assessment.netacad.net/*"
+      ],
+      "js": [
+        "ccna.js"
+      ],
+      "all_frames": true
+    }
+  ]
+}

@@ -11,6 +11,7 @@
   "icons": {
     "256": "icons/ccna-256.png"
   },
+  "browser_action": {},
   "permissions": [
     "clipboardRead",
     "https://itexamanswers.net/*",

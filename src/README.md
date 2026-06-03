@@ -26,6 +26,7 @@ Now you are good to go!
 Use `p` to set the URL of the solutions site.
 
 > For CCNA 2: https://itexamanswers.net/ccna-2-v7-0-final-exam-answers-full-switching-routing-and-wireless-essentials.html
+> FOr CCNA 3: https://itexamanswers.net/ccna-3-v7-0-final-exam-answers-full-enterprise-networking-security-and-automation.html
 
 Please regard that the bar on the left and the actual questions are two seperate windows. If you set up the answer data in the question window using `p`. You must also execute `a` in that same window (have your cursor there and click on it).
 

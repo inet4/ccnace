@@ -6,6 +6,16 @@ A tool to achieve 100 % on any CCNA exam.
 This is a firefox extension. In order to use it, first download and unzip the add-on.
 > Note: In the future, it may also be available on addons.mozilla.org.
 
+### From Source
+In order to modify the manifest or icon, clone the github repo and change data as required.
+
+Then repackage the extension by running the following commmand from **inside** the `src` directory:
+
+```sh
+zip -r -FS ../../ccnace.zip * --exclude '*.git*'
+```
+
+
 Open any firefox-based browser and visit `about:debugging#/runtime/this-firefox`. Then scroll down until you see `Temporary Extensions`. Press the `Load Temporary Add-on...` button and select any file inside the unzipped directory.
 
 Now you are good to go!
